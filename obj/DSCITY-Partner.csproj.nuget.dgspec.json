@@ -1,32 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "D:\\New folder\\DSCITY-AD\\DSCITY-Parking-Partner\\DSCITY-Partner\\DSCITY-Partner.csproj": {}
+    "C:\\Users\\Admin\\Downloads\\01_Dự án Dev\\Dự án cá nhân\\dự_án\\DSCITY-Partner.csproj": {}
   },
   "projects": {
-    "D:\\New folder\\DSCITY-AD\\DSCITY-Parking-Partner\\DSCITY-Partner.Client\\DSCITY-Partner.Client.csproj": {
+    "C:\\Users\\Admin\\Downloads\\01_Dự án Dev\\Dự án cá nhân\\DSCITY-Partner.Client\\DSCITY-Partner.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\New folder\\DSCITY-AD\\DSCITY-Parking-Partner\\DSCITY-Partner.Client\\DSCITY-Partner.Client.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Downloads\\01_Dự án Dev\\Dự án cá nhân\\DSCITY-Partner.Client\\DSCITY-Partner.Client.csproj",
         "projectName": "DSCITY-Partner.Client",
-        "projectPath": "D:\\New folder\\DSCITY-AD\\DSCITY-Parking-Partner\\DSCITY-Partner.Client\\DSCITY-Partner.Client.csproj",
-        "packagesPath": "C:\\Users\\dev01\\.nuget\\packages\\",
-        "outputPath": "D:\\New folder\\DSCITY-AD\\DSCITY-Parking-Partner\\DSCITY-Partner.Client\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Downloads\\01_Dự án Dev\\Dự án cá nhân\\DSCITY-Partner.Client\\DSCITY-Partner.Client.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Downloads\\01_Dự án Dev\\Dự án cá nhân\\DSCITY-Partner.Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dev01\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
-            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -41,33 +38,37 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "Microsoft.AspNetCore.App.Internal.Assets": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[10.0.8, )",
+              "version": "[10.0.7, )",
               "autoReferenced": true
             },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[10.0.8, )"
             },
+            "Microsoft.DotNet.HotReload.WebAssembly.Browser": {
+              "target": "Package",
+              "version": "[10.0.203, )",
+              "autoReferenced": true
+            },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[10.0.8, )",
+              "version": "[10.0.7, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[10.0.8, )",
+              "version": "[10.0.7, )",
               "autoReferenced": true
             }
           },
@@ -85,7 +86,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[10.0.8, 10.0.8]"
+              "version": "[10.0.7, 10.0.7]"
             }
           ],
           "frameworkReferences": {
@@ -93,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -376,33 +377,30 @@
         }
       }
     },
-    "D:\\New folder\\DSCITY-AD\\DSCITY-Parking-Partner\\DSCITY-Partner\\DSCITY-Partner.csproj": {
+    "C:\\Users\\Admin\\Downloads\\01_Dự án Dev\\Dự án cá nhân\\dự_án\\DSCITY-Partner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\New folder\\DSCITY-AD\\DSCITY-Parking-Partner\\DSCITY-Partner\\DSCITY-Partner.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Downloads\\01_Dự án Dev\\Dự án cá nhân\\dự_án\\DSCITY-Partner.csproj",
         "projectName": "DSCITY-Partner",
-        "projectPath": "D:\\New folder\\DSCITY-AD\\DSCITY-Parking-Partner\\DSCITY-Partner\\DSCITY-Partner.csproj",
-        "packagesPath": "C:\\Users\\dev01\\.nuget\\packages\\",
-        "outputPath": "D:\\New folder\\DSCITY-AD\\DSCITY-Parking-Partner\\DSCITY-Partner\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Downloads\\01_Dự án Dev\\Dự án cá nhân\\dự_án\\DSCITY-Partner.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Downloads\\01_Dự án Dev\\Dự án cá nhân\\dự_án\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dev01\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
-            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "D:\\New folder\\DSCITY-AD\\DSCITY-Parking-Partner\\DSCITY-Partner.Client\\DSCITY-Partner.Client.csproj": {
-                "projectPath": "D:\\New folder\\DSCITY-AD\\DSCITY-Parking-Partner\\DSCITY-Partner.Client\\DSCITY-Partner.Client.csproj"
+              "C:\\Users\\Admin\\Downloads\\01_Dự án Dev\\Dự án cá nhân\\DSCITY-Partner.Client\\DSCITY-Partner.Client.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Downloads\\01_Dự án Dev\\Dự án cá nhân\\DSCITY-Partner.Client\\DSCITY-Partner.Client.csproj"
               }
             }
           }
@@ -417,17 +415,16 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "Microsoft.AspNetCore.App.Internal.Assets": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[10.0.8, )",
+              "version": "[10.0.7, )",
               "autoReferenced": true
             },
             "Microsoft.AspNetCore.Components.WebAssembly.Server": {
@@ -454,7 +451,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

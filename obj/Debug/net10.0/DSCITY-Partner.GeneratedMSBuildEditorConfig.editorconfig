@@ -8,29 +8,36 @@ build_property.ProjectTypeGuids =
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
-build_property.EntryPointFilePath = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DSCITYPartner
 build_property.RootNamespace = DSCITYPartner
-build_property.ProjectDir = D:\New folder\DSCITY-AD\DSCITY-Parking-Partner\DSCITY-Partner\
+build_property.ProjectDir = C:\Users\Admin\Downloads\01_Dự án Dev\Dự án cá nhân\dự_án\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
-build_property.RazorLangVersion = 10.0
+build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\New folder\DSCITY-AD\DSCITY-Parking-Partner\DSCITY-Partner
+build_property.MSBuildProjectDirectory = C:\Users\Admin\Downloads\01_Dự án Dev\Dự án cá nhân\dự_án
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/New folder/DSCITY-AD/DSCITY-Parking-Partner/DSCITY-Partner/Components/App.razor]
+[C:/Users/Admin/Downloads/01_Dự án Dev/Dự án cá nhân/dự_án/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/DSCITY-AD/DSCITY-Parking-Partner/DSCITY-Partner/Components/Pages/Error.razor]
+[C:/Users/Admin/Downloads/01_Dự án Dev/Dự án cá nhân/dự_án/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/DSCITY-AD/DSCITY-Parking-Partner/DSCITY-Partner/Components/_Imports.razor]
+[C:/Users/Admin/Downloads/01_Dự án Dev/Dự án cá nhân/dự_án/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/01_Dự án Dev/Dự án cá nhân/dự_án/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/01_Dự án Dev/Dự án cá nhân/dự_án/DSCITY-Partner.Client/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = RFNDSVRZLVBhcnRuZXIuQ2xpZW50XFBhZ2VzXEhvbWUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

@@ -37,6 +37,14 @@
           }
         }
       },
+      "Microsoft.DotNet.HotReload.WebAssembly.Browser/10.0.203": {
+        "runtime": {
+          "lib/net10.0/Microsoft.DotNet.HotReload.WebAssembly.Browser.dll": {
+            "assemblyVersion": "10.0.203.0",
+            "fileVersion": "10.2.326.22005"
+          }
+        }
+      },
       "Microsoft.JSInterop.WebAssembly/10.0.8": {
         "runtime": {
           "lib/net10.0/Microsoft.JSInterop.WebAssembly.dll": {
@@ -47,7 +55,8 @@
       },
       "DSCITY-Partner.Client/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Components.WebAssembly": "10.0.8"
+          "Microsoft.AspNetCore.Components.WebAssembly": "10.0.8",
+          "Microsoft.DotNet.HotReload.WebAssembly.Browser": "10.0.203"
         },
         "runtime": {
           "DSCITY-Partner.Client.dll": {
@@ -77,6 +86,13 @@
       "sha512": "sha512-T450RZXJyy8ACXjHK+MuIyvPlZvQUVnaOKm11UPMNNy2Pp3wnm+jE6O34VVBvKwaeMUKNM32Vrw1dELIsgBKRg==",
       "path": "microsoft.aspnetcore.components.webassembly.server/10.0.8",
       "hashPath": "microsoft.aspnetcore.components.webassembly.server.10.0.8.nupkg.sha512"
+    },
+    "Microsoft.DotNet.HotReload.WebAssembly.Browser/10.0.203": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OFnGv+vIMJdTX9U1gTIwOeE3isTt5MSy+hFpRvXceYZ2TBadvxWunKL1FHMBtY/fRXbJTtBKhByybknDQwhwgw==",
+      "path": "microsoft.dotnet.hotreload.webassembly.browser/10.0.203",
+      "hashPath": "microsoft.dotnet.hotreload.webassembly.browser.10.0.203.nupkg.sha512"
     },
     "Microsoft.JSInterop.WebAssembly/10.0.8": {
       "type": "package",

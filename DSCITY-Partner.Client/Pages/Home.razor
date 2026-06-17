@@ -1,0 +1,98 @@
+@page "/"
+@inject PartnerPortalService Portal
+@inject PartnerAuthService Auth
+
+<PageTitle>DSCITY Partner Portal</PageTitle>
+
+<div class="content dashboard-shell">
+
+    <section class="hero-panel">
+        <div>
+            <p class="eyebrow">DSCITY Partner</p>
+            <h1>Cổng đối tác DSCITY</h1>
+            <p class="hero-copy">
+                Theo dõi đơn hàng, doanh thu và trạng thái hợp tác của bạn ở một nơi.
+                Trạng thái phiên:
+                <strong>@(Auth.IsAuthenticated ? $"Đã đăng nhập — {Auth.CurrentUser}" : "Khách (chưa đăng nhập)")</strong>.
+            </p>
+        </div>
+        <div class="hero-highlight">
+            <small>Đối tác đang hoạt động</small>
+            <strong>@Portal.GetPartners().Count</strong>
+            <span>Cập nhật theo thời gian thực</span>
+        </div>
+    </section>
+
+    <section class="kpi-grid">
+        <div class="kpi-card">
+            <span class="kpi-label">Tổng đối tác</span>
+            <strong>@Portal.GetPartners().Count</strong>
+        </div>
+        <div class="kpi-card accent-card">
+            <span class="kpi-label">Đơn chờ duyệt</span>
+            <strong>3</strong>
+        </div>
+        <div class="kpi-card">
+            <span class="kpi-label">Doanh thu tháng</span>
+            <strong>₫ 128.5M</strong>
+        </div>
+        <div class="kpi-card">
+            <span class="kpi-label">Tỷ lệ duyệt</span>
+            <strong>92%</strong>
+        </div>
+    </section>
+
+    <section class="panel-card">
+        <div class="section-heading">
+            <div>
+                <span class="section-kicker">Danh sách</span>
+                <h2>Đối tác</h2>
+            </div>
+            <div class="action-row">
+                <input class="auth-input" style="max-width:240px" @bind="_newPartner" placeholder="Tên đối tác mới" />
+                <button class="action-btn approve" @onclick="Add">Thêm</button>
+            </div>
+        </div>
+
+        <div class="table-shell">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Tên đối tác</th>
+                        <th>Trạng thái</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        var i = 1;
+                    }
+                    @foreach (var p in Portal.GetPartners())
+                    {
+                        <tr>
+                            <td>@i</td>
+                            <td><strong>@p</strong><span>Mã DSC-@(1000 + i)</span></td>
+                            <td>
+                                <span class="status-badge @(i % 3 == 0 ? "status-pending" : "status-approved")">
+                                    @(i % 3 == 0 ? "Chờ duyệt" : "Đã duyệt")
+                                </span>
+                            </td>
+                        </tr>
+                        i++;
+                    }
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+</div>
+
+@code {
+    private string _newPartner = string.Empty;
+
+    private void Add()
+    {
+        Portal.AddPartner(_newPartner);
+        _newPartner = string.Empty;
+    }
+}
