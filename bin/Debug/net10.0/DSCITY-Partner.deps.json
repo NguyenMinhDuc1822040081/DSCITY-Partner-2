@@ -1,0 +1,94 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "DSCITY-Partner/1.0.0": {
+        "dependencies": {
+          "DSCITY-Partner.Client": "1.0.0",
+          "Microsoft.AspNetCore.Components.WebAssembly.Server": "10.0.8"
+        },
+        "runtime": {
+          "DSCITY-Partner.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Components.WebAssembly/10.0.8": {
+        "dependencies": {
+          "Microsoft.JSInterop.WebAssembly": "10.0.8"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.AspNetCore.Components.WebAssembly.dll": {
+            "assemblyVersion": "10.0.8.0",
+            "fileVersion": "10.0.826.23019"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Components.WebAssembly.Server/10.0.8": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.WebAssembly": "10.0.8"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.AspNetCore.Components.WebAssembly.Server.dll": {
+            "assemblyVersion": "10.0.8.0",
+            "fileVersion": "10.0.826.23019"
+          }
+        }
+      },
+      "Microsoft.JSInterop.WebAssembly/10.0.8": {
+        "runtime": {
+          "lib/net10.0/Microsoft.JSInterop.WebAssembly.dll": {
+            "assemblyVersion": "10.0.8.0",
+            "fileVersion": "10.0.826.23019"
+          }
+        }
+      },
+      "DSCITY-Partner.Client/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.WebAssembly": "10.0.8"
+        },
+        "runtime": {
+          "DSCITY-Partner.Client.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DSCITY-Partner/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Components.WebAssembly/10.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/bxlPbfqxqgWOXHab7EUblZUzoqPIF0Wa6pm6CiwVlSWERLSH9dXPgexNINbaNqEt348XM97fCv0c9r7ef2DdQ==",
+      "path": "microsoft.aspnetcore.components.webassembly/10.0.8",
+      "hashPath": "microsoft.aspnetcore.components.webassembly.10.0.8.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components.WebAssembly.Server/10.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T450RZXJyy8ACXjHK+MuIyvPlZvQUVnaOKm11UPMNNy2Pp3wnm+jE6O34VVBvKwaeMUKNM32Vrw1dELIsgBKRg==",
+      "path": "microsoft.aspnetcore.components.webassembly.server/10.0.8",
+      "hashPath": "microsoft.aspnetcore.components.webassembly.server.10.0.8.nupkg.sha512"
+    },
+    "Microsoft.JSInterop.WebAssembly/10.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sXmjUtF9Kb7heF2cDuT1X8wdJQnyXXJ5wMVN52AtBKUDOzMCfSNTCWoYb3y9LH+6YBAqci8NQkYnHAV+WHC8VA==",
+      "path": "microsoft.jsinterop.webassembly/10.0.8",
+      "hashPath": "microsoft.jsinterop.webassembly.10.0.8.nupkg.sha512"
+    },
+    "DSCITY-Partner.Client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
