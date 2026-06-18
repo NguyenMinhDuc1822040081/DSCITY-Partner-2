@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <BlazorDisableThrowNavigationException>true</BlazorDisableThrowNavigationException>
+    <AssemblyName>DSCITY-Partner</AssemblyName>
+  <RootNamespace>DSCITYPartner</RootNamespace>
+</PropertyGroup>
+
+  <ItemGroup>
+    <!-- The Client project is nested inside this folder; keep its files out of the server's globs. -->
+    <Compile Remove="DSCITY-Partner.Client\**" />
+    <Content Remove="DSCITY-Partner.Client\**" />
+    <None Remove="DSCITY-Partner.Client\**" />
+    <EmbeddedResource Remove="DSCITY-Partner.Client\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="DSCITY-Partner.Client\DSCITY-Partner.Client.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="10.0.8" />
+  </ItemGroup>
+
+</Project>
